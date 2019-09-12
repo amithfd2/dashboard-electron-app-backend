@@ -9,7 +9,9 @@ router.post('/getKeys', (req, res, next) => {
         res.json({
             success: true,
             message: 'Success',
-            data: config.cognito
+            data: {
+                cognito: config.cognito
+            }
         })
     } catch (error) {
         return res.json({

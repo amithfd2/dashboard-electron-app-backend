@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.use('/api/v1/cognito', require('../controllers/api/v1/cognito'));
+// router.use('/auth', require('../controllers/auth'));
+// router.get('/auth', () => console.log('hit'))
 
 module.exports = router;

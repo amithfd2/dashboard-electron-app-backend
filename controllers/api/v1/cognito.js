@@ -16,7 +16,7 @@ router.post('/getKeys', (req, res, next) => {
     } catch (error) {
         return res.json({
             success: false,
-            message: 'Failed to signup user',
+            message: 'Failed',
             error
         });
     }

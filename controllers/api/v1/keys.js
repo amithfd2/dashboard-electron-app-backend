@@ -11,20 +11,20 @@ router.post('/', (req, res, next) => {
             message: 'Success',
             data: {
                 'GMAIL': {
-                    'CLIENT_ID': '384174639178-2p6pie2uk7rtepvkce33o87mr5v3q7ov.apps.googleusercontent.com',
-                    'CLIENT_SECRET': 'djkX_0l9aBwm9Cieub82he_Z',
+                    'CLIENT_ID': '110985853758-4paqls23udjt4l8qqb6ln15rp93hgs47.apps.googleusercontent.com',
+                    'CLIENT_SECRET': 'geQ99JCY1miz5Bjw-ovq2sBz',
                     'REDIRECT_URI': 'http://localhost:3333/auth_gmail',
                     'SCOPES': ['https://www.googleapis.com/auth/gmail.readonly']
                 },
                 'GDRIVE': {
-                    'CLIENT_ID': '384174639178-2p6pie2uk7rtepvkce33o87mr5v3q7ov.apps.googleusercontent.com',
-                    'CLIENT_SECRET': 'djkX_0l9aBwm9Cieub82he_Z',
+                    'CLIENT_ID': '110985853758-4paqls23udjt4l8qqb6ln15rp93hgs47.apps.googleusercontent.com',
+                    'CLIENT_SECRET': 'geQ99JCY1miz5Bjw-ovq2sBz',
                     'REDIRECT_URI': 'http://localhost:3333/auth_gdrive',
                     'SCOPES': ['https://www.googleapis.com/auth/drive.readonly']
                 },
                 'GCAL': {
-                    'CLIENT_ID': '384174639178-2p6pie2uk7rtepvkce33o87mr5v3q7ov.apps.googleusercontent.com',
-                    'CLIENT_SECRET': 'djkX_0l9aBwm9Cieub82he_Z',
+                    'CLIENT_ID': '110985853758-4paqls23udjt4l8qqb6ln15rp93hgs47.apps.googleusercontent.com',
+                    'CLIENT_SECRET': 'geQ99JCY1miz5Bjw-ovq2sBz',
                     'REDIRECT_URI': 'http://localhost:3333/auth_gcal',
                     'SCOPES': ['https://www.googleapis.com/auth/calendar.events.readonly']
                 },
@@ -33,6 +33,8 @@ router.post('/', (req, res, next) => {
                     'CLIENT_SECRET': 'hyx1spsrgosi2n2'
                 },
                 'SLACK': {
+		    'CLIENT_ID': '666467526306.685278186560',
+		    'CLIENT_SECRET': '2c639bb912e64b686db2dd537ec7d602',
                     'SLACKAUTHURL': 'https://slack.com/oauth/authorize?client_id=666467526306.685278186560&scope=search:read'
                 },
                 'BOX': {
